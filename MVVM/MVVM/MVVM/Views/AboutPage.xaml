@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVM.Views.AboutPage"
+             xmlns:vm="clr-namespace:MVVM.ViewModels"
+             Title="{Binding Title}">
+    
+
+
+    <StackLayout>
+        <Entry Placeholder="Tu nombre" HorizontalOptions="FillAndExpand"/>
+        <Entry Placeholder="Tu numero telefonico" HorizontalOptions="FillAndExpand"/>
+        <Entry Placeholder="Tu dirección" HorizontalOptions="FillAndExpand"/>
+
+        <Button Text="Guardar" Clicked="Button_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
